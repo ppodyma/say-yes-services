@@ -1,44 +1,34 @@
 import React from 'react';
-import './Style.scss'
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import RoomIcon from '@material-ui/icons/Room';
+import './Style.scss'
 
 function Contact() {
-  const [value, setValue] = React.useState('Controlled');
-
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
-
-
   return (
     <div className="contactContainer">
-      <div className="contactContent"> 
-        {/* <div style={{ width: '300px'}}>
-          <TextField
-            id="standard-textarea"
-            className="inputText"
-            label="Multiline Placeholder"
-            placeholder="Placeholder"
-            multiline
-          />
-          <TextField
-            id="standard-textarea"
-            className="inputText"
-            label="Multiline Placeholder"
-            placeholder="Placeholder"
-            multiline
-          />
-          <TextField
-            id="standard-textarea"
-            className="inputText"
-            label="Multiline Placeholder"
-            placeholder="Placeholder"
-            multiline
-          />
-        </div> */}
-        <div style={{ width: '400px', height: '400px', margin: 20}}>
-          <div>
+      
+
+      <div className="contactContent">
+          <h1>Pozostańmy w kontakcie</h1>
+          <div className="contactIcon">
+            <EmailIcon /> 
+            <div>sayyesservices@gmail.com</div>
+          </div>
+          <div className="contactIcon">
+            <PhoneAndroidIcon /> 
+            <div>+48 645398111</div>
+          </div>
+          <div className="contactIcon">
+            <RoomIcon /> 
+            <div>Wrocław</div>
+          </div>
+      </div>
+      
+      <div className="contactForm"> 
+       
             <TextField
               id="outlined-textarea"
               className="inputText"
@@ -63,9 +53,7 @@ function Contact() {
               multiline
               variant="outlined"
             />
-            <Button variant="outlined" className="contactButton">Wyślij formularz</Button>
-          </div>
-          <div>
+         
             <TextField
               id="outlined-multiline-static"
               className="inputText"
@@ -73,15 +61,13 @@ function Contact() {
               placeholder="Wiadomość"
               multiline
               rows={10}
-              // defaultValue="Default Value"
               variant="outlined"
             />
-          </div>
-
-        </div>
-
+          <Button variant="outlined" className="contactButton">Wyślij formularz</Button>
       </div>
+
     </div>
+
   );
 }
 

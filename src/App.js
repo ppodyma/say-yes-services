@@ -4,6 +4,7 @@ import Second from './components/Second/Second';
 import Third from './components/Third/Second';
 import Contact from './components/Contact/Contact';
 import AboutUs from './components/AboutUs/AboutUs';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Second />
       <Third />
       <Contact />
+      <Footer />
     </div>
   );
 }
