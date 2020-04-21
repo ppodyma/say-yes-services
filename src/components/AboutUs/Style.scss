@@ -1,12 +1,17 @@
 .contactContainer {
     height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .contactContent {
 
+    }
+
+    .svgIcon {
+        g {
+            fill: currentColor;
+        }
     }
 
     .inputText {
