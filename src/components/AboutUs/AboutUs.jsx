@@ -77,6 +77,7 @@ function AboutUs() {
   return (
     <div className="aboutUsContainer" id="aboutSection">
       <div className={classes.root}>
+      <div className="aboutUsTitle">Dostarczamy usłóg w wielu obszarach </div>
 
       <AppBar position="static" color="default">
         <Tabs
@@ -87,11 +88,11 @@ function AboutUs() {
             variant="fullWidth"
             aria-label="full width tabs example"
           >
-            <Tab label="Projektowanie" icon={<SVG src={require('./../../assets/imgs/icon5.svg')} height={23} width={23} className="svgIcon" />} {...a11yProps(0)} />
-            <Tab label="Budownictwo" icon={<ApartmentIcon />} {...a11yProps(1)} />
-            <Tab label="Szkolenia" icon={<SchoolIcon />} {...a11yProps(2)} />
-            <Tab label="Doświadczenie" icon={<TimelapseIcon />} {...a11yProps(2)} />
-            <Tab label="Niezawodność" icon={<VerifiedUserIcon />} {...a11yProps(2)} />
+            <Tab className="tabIcon" label="Projektowanie" icon={<SVG src={require('./../../assets/imgs/icon5.svg')} height={23} width={23} className="svgIcon" />} {...a11yProps(0)} />
+            <Tab className="tabIcon" label="Budownictwo" icon={<ApartmentIcon />} {...a11yProps(1)} />
+            <Tab className="tabIcon" label="Szkolenia" icon={<SchoolIcon />} {...a11yProps(2)} />
+            <Tab className="tabIcon" label="Doświadczenie" icon={<TimelapseIcon />} {...a11yProps(2)} />
+            <Tab className="tabIcon" label="Niezawodność" icon={<VerifiedUserIcon />} {...a11yProps(2)} />
         </Tabs>
       </AppBar>
         <SwipeableViews
@@ -100,9 +101,26 @@ function AboutUs() {
           onChangeIndex={handleChangeIndex}
         >
           <TabPanel value={value} index={0} dir={theme.direction}>
-            Item One
-            DELECTON
-            TREE
+            <div className="designDescription">
+              {/* <div>Tworzymy projekty domów typowych i indywidualnych</div>
+              <div>Projektujemy instalacje wodne, kanalizacyjne, gazowe, centralnego ogrzewania, również z doborem niekonwencjonalnych źródeł energii – pompy ciepła, kolektory</div>
+              <div>Projektujemy instalacje klimatyzacji i wentylacji</div>
+              <div>Zajmujemy się kontrolą okresowych obiektów budowlanych w zakresie instalacji sanitarnych</div>
+              <div>Obsługujemy inwestycjie w zakresie instalacji wodnych, kanalizacyjnych, gazowych, centralnego ogrzewania</div>
+              <div>Sporządzamy świadectwa charakterystyki energetycznej budynków i lokali</div> */}
+
+              <ul>
+                <li>Tworzymy projekty domów typowych i indywidualnych</li>
+                <li>Projektujemy instalacje wodne, kanalizacyjne, gazowe, centralnego ogrzewania, również z doborem niekonwencjonalnych źródeł energii – pompy ciepła, kolektory</li>
+                <li>Projektujemy instalacje klimatyzacji i wentylacji</li>
+                <li>Zajmujemy się kontrolą okresowych obiektów budowlanych w zakresie instalacji sanitarnych</li>
+                <li>Obsługujemy inwestycjie w zakresie instalacji wodnych, kanalizacyjnych, gazowych, centralnego ogrzewania</li>
+                <li>Sporządzamy świadectwa charakterystyki energetycznej budynków i lokali</li>
+              </ul>
+
+            </div>
+            <img className="house" style={{ position: 'absolute', right: 0, top: 140}} src={require("./../../assets/imgs/house1.png")}  width={400} />
+
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
             Item Two
