@@ -12,17 +12,17 @@ function Contact() {
       
 
       <div className="contactContent">
-          <h1>Pozostańmy w kontakcie</h1>
+          <h1>POZOSTAŃ W KONTAKCIE</h1>
           <div className="contactIcon">
-            <EmailIcon /> 
-            <div>sayyesservices@gmail.com</div>
+            <EmailIcon className="Icon" fontSize="large" /> 
+            <div>say-yes-services@gmail.com</div>
           </div>
           <div className="contactIcon">
-            <PhoneAndroidIcon /> 
+            <PhoneAndroidIcon className="Icon" fontSize="large"/> 
             <div>+48 645398111</div>
           </div>
           <div className="contactIcon">
-            <RoomIcon /> 
+            <RoomIcon className="Icon" fontSize="large"/> 
             <div>Wrocław</div>
           </div>
       </div>

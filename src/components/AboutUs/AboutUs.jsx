@@ -75,7 +75,7 @@ function AboutUs() {
 
 
   return (
-    <div className="contactContainer" id="aboutSection">
+    <div className="aboutUsContainer" id="aboutSection">
       <div className={classes.root}>
 
       <AppBar position="static" color="default">
