@@ -18,8 +18,8 @@ function Main() {
      </div>
      <div className="logo">
          {/* <img src={require("./../../assets/imgs/logo.svg")}  /> */}
-         <SVG
-          src={require("./../../assets/imgs/logo.svg")}
+         <img
+          src={require("./../../assets/imgs/logo14.png")}
         />
          <br />
          Napędzani pasją | Działamy niezawodnie
