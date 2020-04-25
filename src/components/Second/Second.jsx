@@ -5,7 +5,11 @@ function Second() {
   return (
     <div className="secondSection">
 
-        <img className="house" src={require("./../../assets/imgs/house1.png")}  width={500} />
+        <img className="solar" src={require("./../../assets/imgs/solar3.png")}  width={400} />
+        <img className="solar2" src={require("./../../assets/imgs/book.png")}  width={200} />
+        <div>
+
+        </div>
     </div>
   );
 }

@@ -111,15 +111,26 @@ function AboutUs() {
 
               <ul>
                 <li>Tworzymy projekty domów typowych i indywidualnych</li>
-                <li>Projektujemy instalacje wodne, kanalizacyjne, gazowe, centralnego ogrzewania, również z doborem niekonwencjonalnych źródeł energii – pompy ciepła, kolektory</li>
+                <li>Projektujemy instalacje wodne, kanalizacyjne, gazowe, 
+                  <br/>
+                    centralnego ogrzewania, również z doborem niekonwencjonalnych
+                  <br /> 
+                    źródeł energii – pompy ciepła, kolektory słoneczne
+                    </li>
                 <li>Projektujemy instalacje klimatyzacji i wentylacji</li>
-                <li>Zajmujemy się kontrolą okresowych obiektów budowlanych w zakresie instalacji sanitarnych</li>
-                <li>Obsługujemy inwestycjie w zakresie instalacji wodnych, kanalizacyjnych, gazowych, centralnego ogrzewania</li>
+                <li>Zajmujemy się kontrolą okresowych obiektów budowlanych 
+                  <br />
+                  w zakresie instalacji sanitarnych
+                </li>
+                <li>Obsługujemy inwestycjie w zakresie instalacji wodnych, 
+                  <br />
+                    kanalizacyjnych, gazowych, centralnego ogrzewania
+                  </li>
                 <li>Sporządzamy świadectwa charakterystyki energetycznej budynków i lokali</li>
               </ul>
 
             </div>
-            <img className="house" style={{ position: 'absolute', right: 0, top: 140}} src={require("./../../assets/imgs/house1.png")}  width={400} />
+            <img className="house" style={{ position: 'absolute', right: 0, top: 100}} src={require("./../../assets/imgs/house1.png")}  width={400} />
 
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>

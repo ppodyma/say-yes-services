@@ -1,9 +1,62 @@
 .thirdSection {
     background-color: black;
     background-color: #082340;
-    height: 100vh;
+    height: 700px;
     
+    background-image: url('../../assets/imgs/52.jpg');
+    background-image: url('../../assets/imgs/bc7.jpg');
+    background-image: url('../../assets/imgs/37.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     // 25 28 28jpeg 31 37 44 45 46
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .description {
+        position: absolute;
+        width: 1000px;
+        height: 400px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .title {
+            padding-bottom: 80px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .textContainer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .iconElement {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+
+    .backgroundContainer {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(0, 0, 0, 0.3);
+    }
     
 }

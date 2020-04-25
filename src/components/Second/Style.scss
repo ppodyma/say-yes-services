@@ -1,5 +1,5 @@
 .secondSection {
-    background-color: white;
+    background-color: #082340;
     color: white;
     height: 100vh;
     // background-image: url("../../assets/imgs/house1.png");
@@ -10,10 +10,16 @@
     position: relative;
     // 25 28 28jpeg 31 37 44 45 46
 
-    .house {
+    .solar {
         position: absolute;
-        right: 0;
-        top: 250px;
+        left: 0;
+        top: 80px;
+    }
+
+    .solar2 {
+        position: absolute;
+        left: 130px;
+        top: 500px;
     }
     
 }
