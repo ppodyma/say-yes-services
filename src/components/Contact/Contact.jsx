@@ -15,7 +15,7 @@ function Contact() {
           <h1>POZOSTAŃ W KONTAKCIE</h1>
           <div className="contactIcon">
             <EmailIcon className="Icon" fontSize="large" /> 
-            <div>say-yes-services@gmail.com</div>
+            <div>PK.Project.Company@gmail.com</div>
           </div>
           <div className="contactIcon">
             <PhoneAndroidIcon className="Icon" fontSize="large"/> 

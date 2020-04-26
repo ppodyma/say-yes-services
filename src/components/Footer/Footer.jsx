@@ -5,7 +5,7 @@ import './Style.scss'
 function Footer() {
   return (
     <div className="Footer">
-      Copyright &copy; 2020 Piotr Podyma. All rights reserved.
+      Copyright &copy; 2020 Piotr Podyma & Dominika Zwolenik. All rights reserved.
     </div>
   );
 }

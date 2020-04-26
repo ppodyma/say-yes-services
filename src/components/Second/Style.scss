@@ -2,24 +2,48 @@
     background-color: #082340;
     color: white;
     height: 100vh;
-    // background-image: url("../../assets/imgs/house1.png");
+    background-image: url("../../assets/imgs/61.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     // 25 28 28jpeg 31 37 44 45 46
 
     .solar {
         position: absolute;
-        left: 0;
+        left: 80px;
         top: 80px;
+        width: 380px;
     }
 
     .solar2 {
         position: absolute;
-        left: 130px;
-        top: 500px;
+        left: 120px;
+        top: 430px;
+        width: 280px;
+    }
+
+    .solarTitle {
+      font-size: 22px;
+      color: orange;
+    }
+
+    .solarDescription {
+      font-size: 18px;
+      color: white;
+      padding: 30px;
     }
     
+
+    .solarContainer {
+      background-color: white;
+      height: 400px;
+      width: 100%;
+      width: 1000px;
+      color: #082340;
+    }
 }
