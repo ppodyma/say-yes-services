@@ -1,8 +1,9 @@
 .secondSection {
     background-color: #082340;
-    color: white;
-    height: 100vh;
-    background-image: url("../../assets/imgs/61.jpg");
+    background-color: #ffa800;
+    color: #ffffff;
+    height: 650px;
+    // background-image: url("../../assets/imgs/61.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,12 +12,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+
+
     // 25 28 28jpeg 31 37 44 45 46
 
     .solar {
         position: absolute;
-        left: 80px;
-        top: 80px;
+        left: 30px;
+        top: 165px;
         width: 380px;
     }
 
@@ -28,22 +33,47 @@
     }
 
     .solarTitle {
-      font-size: 22px;
-      color: orange;
+      font-size: 32px;
+      color: white;
     }
 
     .solarDescription {
-      font-size: 18px;
-      color: white;
+      font-size: 17px;
+      color: #082340;
       padding: 30px;
     }
     
+    .actionButton {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .bookButton {
+        padding: 10px 15px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        margin: auto;
+        cursor: pointer;
+        transition: 1s;
+        margin: 0 auto;
+        text-align: center;
+
+        &:hover {
+            background-color: white;
+            transition: 1s;
+            color: orange;
+        }
+    }
 
     .solarContainer {
-      background-color: white;
+    //   background-color: white;
       height: 400px;
       width: 100%;
       width: 1000px;
       color: #082340;
+      margin: auto;
     }
 }

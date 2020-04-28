@@ -109,6 +109,7 @@ function AboutUs() {
               <div>Obsługujemy inwestycjie w zakresie instalacji wodnych, kanalizacyjnych, gazowych, centralnego ogrzewania</div>
               <div>Sporządzamy świadectwa charakterystyki energetycznej budynków i lokali</div> */}
 
+              <div style={{ fontSize: 22, color: 'orange'}}>Zajmujemy się:</div>
               <ul>
                 <li>Tworzymy projekty domów typowych i indywidualnych</li>
                 <li>Projektujemy instalacje wodne, kanalizacyjne, gazowe, 
@@ -130,20 +131,61 @@ function AboutUs() {
               </ul>
 
             </div>
-            <img className="house" style={{ position: 'absolute', right: 0, top: 100}} src={require("./../../assets/imgs/house1.png")}  width={400} />
-
+            <img className="house" style={{ position: 'absolute', right: 0, top: 100, zIndex: 100 }} src={require("./../../assets/imgs/house12.png")}  width={400} />
+            <div className="oval"></div>
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            Item Two
+            <div className="designDescription">
+              <div style={{ fontSize: 22, color: 'orange'}}>Pomożemy w temacie:</div>
+              <ul>
+                    <li>Odnawialne źródła energii (OZE)</li>
+                    <li>Instalacji urządzeń grzewczych z systemami zaopatrzenia paliwa 
+                    </li>
+                    <li>Instalacji grzewczych</li>
+                    <li>Instalacji klimatyzacyjnych, chłodniczych
+                    </li>
+                    <li>Instalacji wody bytowej oraz kanalizacji wewnętrznej 
+                      </li>
+                    <li>Wentylacji mechanicznej z rekuperacją</li>
+                    <li>Nadzoru inwestorskiego</li>
+                  </ul>
+                  </div>
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
-            Item Three
+            <div className="designDescription">
+                <div style={{ fontSize: 22, color: 'orange'}}>Prowadzimy szkolenia z tematyki z wielu obszarów wiedzy</div>
+                <ul>
+                      <li>Bardzo dużo przeprowadzonych szkoleń</li>
+                      <li>Szkolenia online oraz stacjonarne</li>
+                      <li>Masa zadowolonych klientów</li>
+                      <li>Specjalistyczna wiedza, napisane książki, doradztwo</li>
+                      <li>Przygotowanie odpowiedniego szkolenia na zamówienie</li>
+                      <li>Projektujemy, wprowadzamy do projektowania w CAD'zie oraz innych oprogramowaniach</li>
+                    </ul>
+                    </div>
           </TabPanel>
           <TabPanel value={value} index={3} dir={theme.direction}>
-            Item Three
+            <div className="designDescription">
+                  <div style={{ fontSize: 22, color: 'orange'}}>Na rynku działamy już od ponad 10 lat</div>
+                  <ul>
+                        <li>Doradzamy</li>
+                        <li>Realizujemy</li>
+                        <li>Zarabiamy</li>
+                        <li>Cieszymy się</li>
+                      </ul>
+                      </div>
           </TabPanel>
           <TabPanel value={value} index={4} dir={theme.direction}>
-            Item Three
+          <div className="designDescription">
+                  <div style={{ fontSize: 22, color: 'orange'}}>Jesteśmy niezawodni w tym co robimy</div>
+                  <ul>
+                        <li>Doradzamy</li>
+                        <li>Realizujemy</li>
+                        <li>Zarabiamy</li>
+                        <li>Cieszymy się</li>
+                      </ul>
+                      </div>
+
           </TabPanel>
         </SwipeableViews>
       </div>

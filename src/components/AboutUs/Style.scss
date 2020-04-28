@@ -6,7 +6,31 @@
     justify-content: center;
     padding-top: 50px;
     height: 860px;
+    border-top: 5px solid white;
+
+    // DESIGN NEW
+    background-color: #082340;
     // background-color: #082340;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        // background-color: green/;
+        // list-style-image: url("../../assets/imgs/checkIcon.svg")
+        
+        padding-left: 15px;
+        &:before {
+            background: url("../../assets/imgs/checkIcon.svg") no-repeat top left;
+            padding: 3px 16px;
+            content: '';
+            width: 24px;
+            position: absolute;
+            height: 24px;
+            margin: 7px -35px;
+        }
+    }
 
     .aboutUsTitle {
         // background-color: #082340;
@@ -18,12 +42,28 @@
         text-align: center;
         padding: 50px 0;
 
+
+        // NEW DESIGN
+        background-color: #082340;
+        color: orange;
+
+    }
+
+    .oval {
+        position: absolute;
+        right: -157px;
+        top: 212px;
+        background-color: white;
+        width: 490px;
+        height: 236px;
+        z-index: 1;
+        border-radius: 67%;
     }
 
     .designDescription {
         width: 650px;
         line-height: 40px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .contactContent {
@@ -33,6 +73,16 @@
     .react-swipeable-view-container {
         height: 550px;
         width: 900px;
+
+
+        // NEW DESIGN
+        background-color: #082340;
+        color: white;
+
+        &>div {
+            background-color: #082340;
+        }
+    
     }
 
     .tabIcon {
