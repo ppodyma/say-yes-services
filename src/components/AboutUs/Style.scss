@@ -114,14 +114,17 @@
 
     .MuiTabs-indicator {
         background-color: orange;
+        height: 3px;
     }
 
     .MuiTab-textColorPrimary.Mui-selected {
         color: black;
         color: orange;
+        background-color: #082340;
+        color: white;
 
         &:hover {
-            color: white;
+            color: orange;
         }
     }
 
