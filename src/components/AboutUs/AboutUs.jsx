@@ -77,7 +77,7 @@ function AboutUs() {
   return (
     <div className="aboutUsContainer" id="aboutSection">
       <div className={classes.root}>
-      <div className="aboutUsTitle">Dostarczamy usłóg w wielu obszarach </div>
+      <div className="aboutUsTitle">Dostarczamy usług w wielu obszarach </div>
 
       <AppBar position="static" color="default">
         <Tabs
