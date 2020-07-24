@@ -220,6 +220,7 @@ Wymiary łóżka:
 Skład : Pianka T-25 + Owata, Rama: Drewno + biała płyta, materac typu
 
 bonell . Nogi - plastik w kolorze szarym
+    </description>
 		<link>https://meblegreen.pl/strona-glowna/653-3616-lozko-kontynentalne-royal.html</link>
       <g:price>1119 PLN</g:price>
       <g:condition>Nowy</g:condition>
@@ -256,6 +257,7 @@ Wymiary łóżka:
 Skład : Pianka T-25 + Owata, Rama: Drewno + biała płyta, materac typu
 
 bonell . Nogi - plastik w kolorze szarym
+      </description>
       <link>https://meblegreen.pl/strona-glowna/654-3622-lozko-kontynentalne-roma.html</link>
       <g:price>1069 PLN</g:price>
       <g:condition>Nowy</g:condition>
@@ -736,8 +738,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+    <item>
+      <g:id>390</g:id>
  <title>Łóżko Kontynentalne DENIZ</title>
       <description>Wezgłowie pikowane guzikami w 2 rzędach w ilościach adekwatnych do rozmiaru łóżka wraz z kedrą zewnętrzną tworzącą kwadraty. Grubość pianki na oparciu wynosi 3 cm. Podstawę stanowi skrzynia z otwieraniem na boki - do wyboru pojemnik lewy lub prawyi. Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-21 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
@@ -770,8 +772,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+    <item>
+      <g:id>389</g:id>
  <title>Łóżko Kontynentalne DAVO</title>
       <description>Wezgłowie w łóżku Davo przeszywane jest tzw. szczypanką na wzór większych rombów wraz z wciągami. Grubość pianki na oparciu wynosi 3 cm. Podstawę stanowi skrzynia z płyty . Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-25 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 57 cm
 
@@ -808,9 +810,9 @@ bonell . Nogi - plastik w kolorze szarym
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
- <title>Łóżko Kontynentalne DALIA</title>
+    <item>
+      <g:id>388</g:id>
+    <title>Łóżko Kontynentalne DALIA</title>
       <description>Wezgłowie pikowane wraz z naturalnymi powstałymi nakładkami. Grubość pianki na oparciu wynosi 4 cm.Podstawę stanowi skrzynia z dwoma pojemnikami na pościel otwieranymi na boki. Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-21 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
 - rozmiary (zaznaczamy wybór w kombinacjach)
@@ -842,8 +844,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+    <item>
+      <g:id>387</g:id>
  <title>Łóżko Kontynentalne CLAUDIA</title>
       <description>Łóżko Claudia wykonane jest z przeszyć dwurzędowych oraz 3 rzędów guzików w ilościach adekwatnych do rozmiaru łóżka. Grubość pianki na oparciu wynosi 3 cm. Podstawę stanowi skrzynia z dwoma pojemnikami na pościel otwieranymi na boki. Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOP PER) wykonany z pianki T-21 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
@@ -876,8 +878,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+    <item>
+      <g:id>386</g:id>
  <title>Łóżko Kontynentalne CARRE</title>
       <description>Wezgłowie w łóżku Carre ozdobione jest dookoła piękną dużą lamówką o szerokości 4 cm , na środku wezgłowia występują przeszycia oraz 3 wciągi. Grubość pianki na oparciu wynosi 3 cm. Podstawę stanowi skrzynia z płyty . Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-25 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
@@ -910,8 +912,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+    <item>
+      <g:id>385</g:id>
  <title>Łóżko Kontynentalne CARLO</title>
       <description>Wezgłowie w łóżku CARLO przeszywane jest kedrą w kształt kwadratów oraz pikowane guzikami co 20 cm w ilościach adekwatnych do rozmiaru łóżka, grubość pianki na oparciu wynosi 3 cm. Podstawę stanowi skrzynia z płyty . Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-25 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
@@ -944,8 +946,8 @@ bonell . Nogi - plastik w kolorze szarym</description>
       <g:google_product_category>Sypialnia > Łóżka kontynentalne</g:google_product_category>
       <g:product_type>Łóżko</g:product_type>
     </item>
-  </channel>
-</rss>
+<item>
+      <g:id>384</g:id>
  <title>Łóżko Kontynentalne BELIZE</title>
       <description>Łóżko BELIZE wykonane jest z przekładanymi szalami z tkaniny na wezgłowiu o szerokości 25 cm. Grubość pianki na oparciu wynosi 2 cm. Podstawę stanowi skrzynia z dwoma pojemnikami na pościel otwieranymi na boki. Materac bazowy wykonany jest ze sprężyny typu bonell oraz pianka T-25 , wysokość 20 cm. Na materac bazowy zastosowany został materac nawierzchniowy (TOPPER) wykonany z pianki T-21 o wysokości 5 cm. Wysokość nóg - 2 cm. Wielopoziomowa konstrukcja o wysokości 65 cm
 CHARAKTERYSTYKA:
@@ -963,7 +965,7 @@ Wymiary łóżka:
 
 Skład : Pianka T-25 + Owata, Rama: Drewno + biała płyta, materac typu
 
-bonell . Nogi - plastik w kolorze szarym</description>
+bonell. Nogi - plastik w kolorze szarym</description>
       <link>https://meblegreen.pl/strona-glowna/679-3758-lozko-kontynentalne-belize.html</link>
       <g:price>1189 PLN</g:price>
       <g:condition>Nowy</g:condition>
